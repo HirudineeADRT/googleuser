@@ -1,0 +1,106 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "18f3f033-a79b-4aeb-a371-87509dcf8310": {
+        "id": "18f3f033-a79b-4aeb-a371-87509dcf8310",
+        "parent": null,
+        "name": "googleuser.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "googleuser.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1hiru1312kklkany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "18f3f033-a79b-4aeb-a371-87509dcf8310"
+    ],
+    "currentFileId": "18f3f033-a79b-4aeb-a371-87509dcf8310",
+    "resources": {
+      "apigusEast1hiru1312kklkany": {
+        "name": "apigusEast1hiru1312kklkany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "hiru1312",
+          "apiId": "9jlzhlqmxj",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "6lfukhtixf",
+          "existingResources": {
+            "/": "6lfukhtixf",
+            "/s3issuecheck": "89aekf",
+            "/0228/recognition": "9iqavy",
+            "/check": "fl6i90",
+            "/check/s3": "j4e0ex",
+            "/0228": "k7ebnd",
+            "/sample": "tc5zpx",
+            "/smoketest": "uu6qav",
+            "/sample/hiru": "xwhexr"
+          },
+          "resourceMode": 0,
+          "resourceName": "kklk",
+          "resourcePath": "/kklk",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "tqgj20",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "googleuser",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "language": "nodejs",
+    "lastSave": 1584085552540
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "googleuser",
+      "url": "https://github.com/HirudineeADRT/googleuser"
+    }
+  }
+}
